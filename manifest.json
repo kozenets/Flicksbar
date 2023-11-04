@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Kinopoisk to Flicksbar",
+  "version": "1.0",
+  "description": "Удобный инструмент для быстрого просмотра фильмов или сериалов с кинопоиска",
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab",
+	"contextMenus"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon_16.png",
+      "48": "icon_64.png"
+    }
+  },
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_64.png"
+  }
+}
